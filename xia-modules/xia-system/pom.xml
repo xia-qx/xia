@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.xia</groupId>
+        <artifactId>xia-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xia-system</artifactId>
+
+    <description>
+        system系统模块
+    </description>
+
+    <dependencies>
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-translation</artifactId>
+        </dependency>
+
+        <!-- OSS功能模块 -->
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-log</artifactId>
+        </dependency>
+
+        <!-- excel-->
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-excel</artifactId>
+        </dependency>
+
+        <!-- SMS功能模块 -->
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-websocket</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xia</groupId>
+            <artifactId>xia-common-sse</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

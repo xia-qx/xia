@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xia</artifactId>
+        <groupId>org.xia</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>xia-common-bom</module>
+        <module>xia-common-social</module>
+        <module>xia-common-core</module>
+        <module>xia-common-doc</module>
+        <module>xia-common-excel</module>
+        <module>xia-common-idempotent</module>
+        <module>xia-common-job</module>
+        <module>xia-common-log</module>
+        <module>xia-common-mail</module>
+        <module>xia-common-mybatis</module>
+        <module>xia-common-oss</module>
+        <module>xia-common-ratelimiter</module>
+        <module>xia-common-redis</module>
+        <module>xia-common-satoken</module>
+        <module>xia-common-security</module>
+        <module>xia-common-sms</module>
+        <module>xia-common-web</module>
+        <module>xia-common-translation</module>
+        <module>xia-common-sensitive</module>
+        <module>xia-common-json</module>
+        <module>xia-common-encrypt</module>
+        <module>xia-common-tenant</module>
+        <module>xia-common-websocket</module>
+        <module>xia-common-sse</module>
+    </modules>
+
+    <artifactId>xia-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
