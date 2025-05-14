@@ -1,0 +1,6 @@
+org.xia.common.translation.config.TranslationConfig
+org.xia.common.translation.core.impl.DeptNameTranslationImpl
+org.xia.common.translation.core.impl.DictTypeTranslationImpl
+org.xia.common.translation.core.impl.OssUrlTranslationImpl
+org.xia.common.translation.core.impl.UserNameTranslationImpl
+org.xia.common.translation.core.impl.NicknameTranslationImpl

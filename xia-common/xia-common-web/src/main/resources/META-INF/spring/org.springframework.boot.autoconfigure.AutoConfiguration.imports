@@ -1,0 +1,5 @@
+org.xia.common.web.config.CaptchaConfig
+org.xia.common.web.config.FilterConfig
+org.xia.common.web.config.I18nConfig
+org.xia.common.web.config.ResourcesConfig
+org.xia.common.web.config.UndertowConfig

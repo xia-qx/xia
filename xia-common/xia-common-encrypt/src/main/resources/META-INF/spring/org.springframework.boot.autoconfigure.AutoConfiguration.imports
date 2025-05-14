@@ -1,0 +1,3 @@
+org.xia.common.encrypt.config.EncryptorAutoConfiguration
+org.xia.common.encrypt.config.ApiDecryptAutoConfiguration
+
